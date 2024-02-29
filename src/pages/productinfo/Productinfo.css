@@ -1,0 +1,28 @@
+.details{
+    display: flex;
+    align-items: center;
+    width:60%;
+    justify-content: center;
+}
+.details .image{
+    padding: 10px;
+    margin: 20px;
+}
+.details .image img{
+    width:400px;
+    height:550px
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price button{
+    width:200px;
+    height:4vh;
+    cursor:pointer;
+    border:none;
+    outline: none;
+    background-color: violet;
+    border-radius: 10px;
+}

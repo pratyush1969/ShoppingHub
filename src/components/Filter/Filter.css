@@ -1,0 +1,50 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(225, 224, 224);
+    width:60%;
+    box-shadow: 0 5px 5px grey;
+}
+.filter-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+   border: 1px solid rgb(236, 232, 232);
+   background-color: aliceblue;
+   height:3rem;
+   margin: 20px;
+
+}
+.input input{
+    width:700px;
+    border:none;
+    outline: none;
+    background-color: aliceblue;
+}
+.input i{
+    padding: 10px;
+}
+.filter-type{
+    display: flex;
+    justify-content: space-between;
+    width:81%;
+
+}
+.filter-body{
+    width:81%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+select{
+    width:40%;
+    height:5vh;
+    margin: 10px;
+    margin-bottom: 20px;
+}

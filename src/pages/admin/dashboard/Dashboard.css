@@ -1,0 +1,28 @@
+.dasboard-container{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dash-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:2px solid violet;
+    width:20%;
+    height:20vh;
+    margin: 30px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 2px 2px inset ;
+}
+.dash-card i{
+    margin-top: 30px;
+    font-size: xx-large;
+    color:violet
+}
+.dash-card h5{
+    margin-bottom: 30px;
+}

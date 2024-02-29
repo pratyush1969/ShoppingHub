@@ -1,0 +1,9 @@
+.modal-btn{
+    width:100%;
+    margin-bottom: 10px;
+    height:7vh;
+    background-color: violet;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer
+}

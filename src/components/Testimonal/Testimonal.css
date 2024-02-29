@@ -1,0 +1,25 @@
+.testimonal{
+    width:100%;
+    text-align: center;
+}
+.testimonal-body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonal-details{
+    width:400px;
+    margin: 20px;
+}
+.testimonal-details img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+
+}
+.testimonal-details hr{
+    width:50px;
+    border:2px solid rgb(247, 11, 196)
+
+}
